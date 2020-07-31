@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+#news {
+   background-color: #EDF6FD; 
+}
+#news > header {
+text-align: center;
+padding: 100px;
+}
+#news > header h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #222222;
+    margin-top: 0;
+}
+#news > header h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #888888;
+    line-height: 32px;
+}
+#news div {
+    width: 80%; margin: auto;
+}
+#news article { 
+    max-width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    margin-left: 3%; margin-bottom: 100px;
+}
+#news article img {
+    max-width: 320px;
+
+}
+#news article p.info {
+    font-size: 12px;
+    font-weight: 400;
+}
+#news article p.info span {margin: 20px;}
+#news article p.info:hover {cursor: pointer;}
+#news article h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+#news article h3:hover {cursor: pointer;}
+#news article p.summary {
+    font-size: 15px;
+    font-weight: 400;
+    color: #888888;
+    line-height: 28.5px;
+    margin-bottom: 40px;
+}
+#news article a.btn {
+    background-image: linear-gradient(to right, #21d397,#7450fe);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 35px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    transition: 500ms;
+}
+#news article a.btn:hover {
+    background-image: linear-gradient(to left, #21d397, #7450fe);
+/*background-position: -162px 0px;*/
+}
+
+
+
+
